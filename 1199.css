@@ -1,0 +1,102 @@
+@media (max-width: 1199px) {
+    .memnuniyet-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .phone-call-btn .desktop-text {
+        display: inline;
+        font-weight: 700;
+        font-size: 1.3rem;
+    }
+
+    .phone-call-btn .mobile-text {
+        display: none;
+    }
+
+    .phone-call-btn i {
+        margin-right: 8px;
+    }
+
+    .nav-link-two {
+        font-size: 0.65rem !important;
+        /* veya istediğin boyut */
+        margin-left: -2em;
+    }
+
+    .brand {
+        margin-left: -2em;
+    }
+
+    th {
+        width: 30%;
+    }
+
+    .hizmet2 {
+        font-size: 2em;
+    }
+
+    .modal-body p {
+        font-size: 0.87rem;
+    }
+
+    .modal-footer .btn {
+        font-size: 0.95rem;
+    }
+
+    .card-title {
+        font-size: 1.4rem;
+    }
+
+    .sosyal {
+        gap: 1.5em;
+        font-size: 3em;
+    }
+
+    .btn-close {
+        font-size: 0.9rem;
+    }
+
+    .offcanvas-body h3 {
+        font-size: 1.45rem;
+        margin-top: -0.8em;
+        margin-bottom: -0.5em;
+    }
+
+    .offcanvas-body p {
+        font-size: 0.82rem;
+        margin-bottom: -0.6em;
+    }
+
+    .hero-service-item {
+        font-size: 1rem;
+        padding: 1.1rem 0.7rem;
+        min-height: 70px;
+    }
+
+    .offcanvas {
+        width: 45%;
+        /* Genişliği neredeyse tüm ekran */
+        max-width: 250px;
+        /* Masaüstünde max genişlik */
+        margin-top: 4.5em;
+    }
+
+    .offcanvas-body {
+        width: 100%;
+    }
+
+    .hizmet .nav-link-two {
+        font-size: 1rem;
+    }
+
+    .color-shift-arrow {
+        width: 32px;
+        height: 32px;
+        font-size: 1rem;
+    }
+
+    .btn-primary{
+        width: 24%;
+        font-size: 0.95rem;
+    }
+}
