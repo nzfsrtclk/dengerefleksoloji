@@ -138,6 +138,7 @@
 
     .gs-container {
         width: 100%;
+        display: none;
     }
 
     .hizmet-button {
@@ -154,4 +155,5 @@
     .d-flex .mobile-text {
         display: inline;
     }
+
 }
