@@ -153,4 +153,13 @@
     .btn-primary {
         font-size: 0.3rem;
     }
+
+        .d-flex .desktop-text {
+        display: none;
+    }
+
+    .d-flex .mobile-text {
+        display: inline;
+    }
+
 }
