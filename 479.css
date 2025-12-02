@@ -133,7 +133,7 @@
 
     .gs-container {
         width: 100%;
-        display: flex;
+        display: none;
         flex-direction: row;
         align-items: center;
         justify-content: center;
@@ -163,3 +163,4 @@
     }
 
 }
+
