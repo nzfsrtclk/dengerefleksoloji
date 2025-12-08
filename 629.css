@@ -32,10 +32,9 @@
     .lead {
         font-size: 0.9rem;
         margin-bottom: 2rem;
-    }
-
-    hr {
-        margin-bottom: -0.3rem
+        display: flex;
+        justify-content: center;
+        align-items: center;        
     }
 
     .hero-cta .btn {
@@ -174,6 +173,7 @@
 
 
 }
+
 
 
 
