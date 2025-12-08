@@ -35,7 +35,7 @@
     }
 
     hr {
-        margin-bottom: -1rem
+        margin-bottom: 0.3rem
     }
 
     .hero-cta .btn {
@@ -174,4 +174,5 @@
 
 
 }
+
 
