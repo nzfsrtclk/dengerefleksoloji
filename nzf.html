@@ -1,0 +1,1769 @@
+<!DOCTYPE html>
+<html lang="tr">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Refleksoloji ve Akupunktur Hastalık Tablosu</title>
+  <style>
+    table {
+      border-collapse: collapse;
+      width: 100%;
+      font-size: 15px;
+    }
+
+    th,
+    td {
+      border: 1px solid #000;
+      padding: 6px;
+      text-align: left;
+    }
+
+    th {
+      background-color: #f2f2f2;
+      position: sticky;
+      top: 0;
+      /* Başlığı sayfa kaydırıldığında sabitler */
+      z-index: 2;
+    }
+
+    #search {
+      margin-bottom: 10px;
+      padding: 6px;
+      width: 300px;
+      font-size: 15px;
+    }
+  </style>
+</head>
+
+<body>
+  <input type="text" id="search" placeholder="Hastalık ara...">
+  <table border="1" id="diseaseTable" cellpadding="6" cellspacing="0"
+    style="border-collapse: collapse; width:100%; font-size:15px;">
+    <thead>
+      <tr>
+        <th>Hastalık (Tahmini Fayda %)</th>
+        <th>Refleksoloji Noktaları (Yer Tarifi – Sağ/Sol Ayak)</th>
+        <th>Süre Dağılımı (40 dk)</th>
+        <th>Uygulama Sırası</th>
+        <th>Akupunktur Noktaları</th>
+      </tr>
+    </thead>
+    <!-- A HARFİ HASTALIKLARI -->
+    <tbody>
+      <tr>
+        <td>Astım (Akciğer iltihabı ve nefes darlığı) (75%)</td>
+        <td>
+          Beyin – Başparmak ucu (iki ayak)<br>
+          Bronş/Akciğer – Taban üst dış bölge (iki ayak)<br>
+          Göğüs – Taban orta üst (iki ayak)<br>
+          Diyafram – Taban ortası yatay çizgi (iki ayak)
+        </td>
+        <td>5 dk Beyin → 10 dk Bronş → 10 dk Göğüs → 10 dk Diyafram → 5 dk Beyin</td>
+        <td>Beyin → Bronş → Göğüs → Diyafram → Beyin</td>
+        <td>LU1, LU5, BL13, CV17</td>
+      </tr>
+
+      <tr>
+        <td>Anemi (Kansızlık, halsizlik) (65%)</td>
+        <td>
+          Dalak – Sol ayak taban orta iç alan<br>
+          Beyin – Başparmak ucu (iki ayak)<br>
+          Böbrek – Taban orta iç nokta (iki ayak)
+        </td>
+        <td>5 dk Beyin → 15 dk Dalak → 15 dk Böbrek → 5 dk Beyin</td>
+        <td>Beyin → Dalak → Böbrek → Beyin</td>
+        <td>SP6, BL20, KD3</td>
+      </tr>
+
+      <tr>
+        <td>Alerji (Bağışıklık aşırı tepkisi, hapşırık, kaşıntı) (70%)</td>
+        <td>
+          Akciğer – Taban üst dış alan (iki ayak)<br>
+          Solar Pleksus – Taban ortası çukur (iki ayak)<br>
+          Adrenaller – Taban orta iç nokta (iki ayak)
+        </td>
+        <td>10 dk Akciğer → 15 dk Solar Pleksus → 10 dk Adrenaller → 5 dk Akciğer</td>
+        <td>Akciğer → Solar Pleksus → Adrenaller → Akciğer</td>
+        <td>LU1, PC6, KD3</td>
+      </tr>
+
+      <tr>
+        <td>Artrit (Eklem iltihabı, ağrı, şişlik) (75%)</td>
+        <td>
+          Omurga – Ayak iç kenarı çizgi (iki ayak)<br>
+          Eklem noktaları – Ayak parmak ve topuk bölgesi (iki ayak)<br>
+          Böbrek – Taban orta iç nokta (iki ayak)
+        </td>
+        <td>10 dk Omurga → 15 dk Eklem → 10 dk Böbrek → 5 dk Omurga</td>
+        <td>Omurga → Eklem → Böbrek → Omurga</td>
+        <td>BL23, ST36, GB30</td>
+      </tr>
+
+      <tr>
+        <td>Anksiyete (Kaygı bozukluğu, stres) (80%)</td>
+        <td>
+          Beyin – Başparmak ucu (iki ayak)<br>
+          Solar Pleksus – Taban ortası çukur (iki ayak)<br>
+          Diyafram – Taban ortası yatay hat (iki ayak)<br>
+          Adrenaller – Taban orta iç nokta (iki ayak)
+        </td>
+        <td>5 dk Beyin → 10 dk Solar Pleksus → 10 dk Diyafram → 10 dk Adrenaller → 5 dk Beyin</td>
+        <td>Beyin → Solar Pleksus → Diyafram → Adrenaller → Beyin</td>
+        <td>HT7, PC6, KD3, CV17</td>
+      </tr>
+
+      <tr>
+        <td>Alzheimer (Bilişsel gerileme, hafıza kaybı) (65%)</td>
+        <td>
+          Beyin – Başparmak ucu (iki ayak)<br>
+          Hipokampüs noktası – Başparmak alt iç kenar (iki ayak)<br>
+          Solar Pleksus – Taban ortası çukur (iki ayak)
+        </td>
+        <td>5 dk Beyin → 15 dk Hipokampüs → 15 dk Solar Pleksus → 5 dk Beyin</td>
+        <td>Beyin → Hipokampüs → Solar Pleksus → Beyin</td>
+        <td>GV20, HT7, CV17</td>
+      </tr>
+
+      <tr>
+        <td>Ankilozan Spondilit (Omurga iltihabı, hareket kısıtlılığı) (70%)</td>
+        <td>
+          Omurga – Ayak iç kenarı çizgi (iki ayak)<br>
+          Böbrek – Taban orta iç nokta (iki ayak)<br>
+          Kalça – Taban arka dış kısmı (iki ayak)
+        </td>
+        <td>10 dk Omurga → 10 dk Böbrek → 15 dk Kalça → 5 dk Omurga</td>
+        <td>Omurga → Böbrek → Kalça → Omurga</td>
+        <td>BL23, GB30, ST36</td>
+      </tr>
+
+      <tr>
+        <td>Anoreksiya Nervoza (Yeme bozukluğu, kilo kaybı) (65%)</td>
+        <td>
+          Beyin – Başparmak ucu (iki ayak)<br>
+          Mide – Sol ayak tarak alt iç bölge<br>
+          Solar Pleksus – Taban ortası çukur (iki ayak)
+        </td>
+        <td>5 dk Beyin → 15 dk Mide → 15 dk Solar Pleksus → 5 dk Beyin</td>
+        <td>Beyin → Mide → Solar Pleksus → Beyin</td>
+        <td>ST36, CV12, CV17</td>
+      </tr>
+
+      <tr>
+        <td>Ağız Ülseri (Ağız mukozası problemleri) (65%)</td>
+        <td>
+          Beyin – Başparmak ucu (iki ayak)<br>
+          Sindirim noktaları – Ayak taban orta alan (iki ayak)<br>
+          Vagus – Başparmak iç kenarı
+        </td>
+        <td>5 dk Beyin → 15 dk Sindirim → 15 dk Vagus → 5 dk Beyin</td>
+        <td>Beyin → Sindirim → Vagus → Beyin</td>
+        <td>ST36, CV12, PC6</td>
+      </tr>
+
+      <tr>
+        <td>Amigdalit (Bademcik iltihabı, boğaz ağrısı) (70%)</td>
+        <td>
+          Boğaz – Başparmak alt iç kenarı (iki ayak)<br>
+          Akciğer / Bronş – Taban üst dış alan (iki ayak)<br>
+          Beyin – Başparmak ucu (iki ayak)
+        </td>
+        <td>10 dk Boğaz → 15 dk Akciğer → 10 dk Beyin → 5 dk Boğaz</td>
+        <td>Boğaz → Akciğer → Beyin → Boğaz</td>
+        <td>LI4, LU1, GV20</td>
+      </tr>
+
+      <tr>
+        <td>Ateşli Hastalıklar (Vücut ısısı yükselmesi) (65%)</td>
+        <td>
+          Beyin – Başparmak ucu (iki ayak)<br>
+          Solar Pleksus – Taban ortası çukur (iki ayak)<br>
+          Adrenaller – Taban orta iç nokta (iki ayak)
+        </td>
+        <td>5 dk Beyin → 15 dk Solar Pleksus → 15 dk Adrenaller → 5 dk Beyin</td>
+        <td>Beyin → Solar Pleksus → Adrenaller → Beyin</td>
+        <td>HT7, PC6, KD3</td>
+      </tr>
+
+      <tr>
+        <td>Aşırı Tansiyon (Hipertansiyon) (75%)</td>
+        <td>
+          Beyin – Başparmak ucu (iki ayak)<br>
+          Kalp – Sol ayak tarak üst iç bölge<br>
+          Adrenaller – Taban orta iç nokta (iki ayak)
+        </td>
+        <td>5 dk Beyin → 10 dk Kalp → 15 dk Adrenaller → 10 dk Beyin</td>
+        <td>Beyin → Kalp → Adrenaller → Beyin</td>
+        <td>PC6, HT7, KD3</td>
+      </tr>
+
+      <tr>
+        <td>Aşırı Yorgunluk (Kronik yorgunluk) (75%)</td>
+        <td>
+          Beyin – Başparmak ucu (iki ayak)<br>
+          Adrenaller – Taban orta iç nokta (iki ayak)<br>
+          Böbrek – Taban orta iç nokta (iki ayak)<br>
+          Solar Pleksus – Taban ortası çukur (iki ayak)
+        </td>
+        <td>5 dk Beyin → 10 dk Adrenaller → 10 dk Böbrek → 10 dk Solar Pleksus → 5 dk Beyin</td>
+        <td>Beyin → Adrenaller → Böbrek → Solar Pleksus → Beyin</td>
+        <td>HT7, KD3, BL23, CV17</td>
+      </tr>
+
+      <tr>
+        <td>Aşırı Kilo / Obezite (65%)</td>
+        <td>
+          Mide – Sol ayak tarak alt iç bölge<br>
+          Pankreas – Taban orta iç alan (iki ayak)<br>
+          Böbrek – Taban orta iç nokta (iki ayak)
+        </td>
+        <td>10 dk Mide → 15 dk Pankreas → 10 dk Böbrek → 5 dk Mide</td>
+        <td>Mide → Pankreas → Böbrek → Mide</td>
+        <td>ST36, CV12, KD3</td>
+      </tr>
+
+      <!-- B HARFİ HASTALIKLARI -->
+
+      <tr>
+        <td>Bel Fıtığı (Disk sıkışması, bel ağrısı) (80%)</td>
+        <td>
+          Beyin – Başparmak ucu (iki ayak)<br>
+          Omurga – Ayak iç kenarı boyunca çizgi (iki ayak)<br>
+          Böbrek – Taban orta iç nokta (iki ayak)<br>
+          Kalça – Taban arka dış kısmı (iki ayak)
+        </td>
+        <td>5 dk Beyin → 10 dk Omurga → 10 dk Böbrek → 10 dk Kalça → 5 dk Beyin</td>
+        <td>Beyin → Omurga → Böbrek → Kalça → Beyin</td>
+        <td>BL23, BL40, GB30, ST36</td>
+      </tr>
+
+      <tr>
+        <td>Böbrek Yetmezliği (Akut/Kronik) (75%)</td>
+        <td>
+          Böbrek – Taban orta iç nokta (iki ayak)<br>
+          Adrenaller – Taban orta iç alan (iki ayak)<br>
+          Solar Pleksus – Taban ortası çukur (iki ayak)
+        </td>
+        <td>10 dk Böbrek → 15 dk Adrenaller → 10 dk Solar Pleksus → 5 dk Böbrek</td>
+        <td>Böbrek → Adrenaller → Solar Pleksus → Böbrek</td>
+        <td>KD3, BL23, CV17</td>
+      </tr>
+
+      <tr>
+        <td>Baş Ağrısı (Migren, gerilim) (75%)</td>
+        <td>
+          Beyin – Başparmak ucu (iki ayak)<br>
+          Solar Pleksus – Taban ortası çukur (iki ayak)<br>
+          Boyun – Başparmak taban çizgisi (iki ayak)
+        </td>
+        <td>5 dk Beyin → 15 dk Solar Pleksus → 10 dk Boyun → 10 dk Beyin</td>
+        <td>Beyin → Solar Pleksus → Boyun → Beyin</td>
+        <td>GV20, HT7, LI4</td>
+      </tr>
+
+      <tr>
+        <td>Bronşit (Bronş iltihabı, öksürük, balgam) (75%)</td>
+        <td>
+          Bronş – Taban üst dış alan (iki ayak)<br>
+          Akciğer – Taban üst geniş alan (iki ayak)<br>
+          Diyafram – Taban ortası yatay hat (iki ayak)
+        </td>
+        <td>10 dk Bronş → 15 dk Akciğer → 10 dk Diyafram → 5 dk Bronş</td>
+        <td>Bronş → Akciğer → Diyafram → Bronş</td>
+        <td>LU1, LU9, CV17</td>
+      </tr>
+
+      <tr>
+        <td>Böcek Isırığı / Zehirlenme (Cilt reaksiyonu, alerji) (65%)</td>
+        <td>
+          Adrenaller – Taban orta iç alan (iki ayak)<br>
+          Solar Pleksus – Taban ortası çukur (iki ayak)<br>
+          Cilt Noktaları – Ayak üst bölgesi (iki ayak)
+        </td>
+        <td>10 dk Adrenaller → 15 dk Solar Pleksus → 10 dk Cilt Noktaları → 5 dk Adrenaller</td>
+        <td>Adrenaller → Solar Pleksus → Cilt → Adrenaller</td>
+        <td>KD3, CV17, LI11</td>
+      </tr>
+
+      <tr>
+        <td>Böbrek Taşları (Renal taş, idrar tıkanıklığı) (70%)</td>
+        <td>
+          Böbrek – Taban orta iç nokta (iki ayak)<br>
+          Üreter – Ayak taban iç çizgi (iki ayak)<br>
+          Adrenaller – Taban orta iç nokta (iki ayak)
+        </td>
+        <td>10 dk Böbrek → 15 dk Üreter → 10 dk Adrenaller → 5 dk Böbrek</td>
+        <td>Böbrek → Üreter → Adrenaller → Böbrek</td>
+        <td>KD3, BL23, CV4</td>
+      </tr>
+
+      <tr>
+        <td>Bel Ağrısı (Kas/Disk/Eklem kaynaklı) (75%)</td>
+        <td>
+          Omurga – Ayak iç kenarı çizgi (iki ayak)<br>
+          Kalça – Taban arka dış kısmı (iki ayak)<br>
+          Böbrek – Taban orta iç nokta (iki ayak)
+        </td>
+        <td>10 dk Omurga → 15 dk Kalça → 10 dk Böbrek → 5 dk Omurga</td>
+        <td>Omurga → Kalça → Böbrek → Omurga</td>
+        <td>BL23, GB30, ST36</td>
+      </tr>
+
+      <tr>
+        <td>Bronş Astımı (Nefes darlığı, bronş duyarlılığı) (75%)</td>
+        <td>
+          Beyin – Başparmak ucu (iki ayak)<br>
+          Bronş – Taban üst dış alan (iki ayak)<br>
+          Akciğer – Taban üst geniş alan (iki ayak)<br>
+          Diyafram – Taban ortası yatay hat (iki ayak)
+        </td>
+        <td>5 dk Beyin → 10 dk Bronş → 15 dk Akciğer → 10 dk Diyafram → 5 dk Beyin</td>
+        <td>Beyin → Bronş → Akciğer → Diyafram → Beyin</td>
+        <td>LU1, LU5, BL13, CV17</td>
+      </tr>
+
+      <tr>
+        <td>Böbrek İltihabı (Pyelonefrit, akut/kronik) (70%)</td>
+        <td>
+          Böbrek – Taban orta iç nokta (iki ayak)<br>
+          Adrenaller – Taban orta iç alan (iki ayak)<br>
+          Solar Pleksus – Taban ortası çukur (iki ayak)
+        </td>
+        <td>10 dk Böbrek → 15 dk Adrenaller → 10 dk Solar Pleksus → 5 dk Böbrek</td>
+        <td>Böbrek → Adrenaller → Solar Pleksus → Böbrek</td>
+        <td>KD3, BL23, CV17</td>
+      </tr>
+
+      <tr>
+        <td>Bacak Krampı (Kas spazmı, dolaşım problemi) (65%)</td>
+        <td>
+          Bacak – Baldır üst ve alt bölgeleri (iki ayak)<br>
+          Böbrek – Taban orta iç nokta (iki ayak)<br>
+          Omurga – Ayak iç kenarı çizgi (iki ayak)
+        </td>
+        <td>10 dk Bacak → 15 dk Böbrek → 10 dk Omurga → 5 dk Bacak</td>
+        <td>Bacak → Böbrek → Omurga → Bacak</td>
+        <td>BL23, ST36, KD3</td>
+      </tr>
+
+      <tr>
+        <td>Bacak Şişliği (Ödem, lenf akışı bozukluğu) (70%)</td>
+        <td>
+          Bacak – Ayak iç ve dış yüzü (iki ayak)<br>
+          Lenf Noktaları – Taban orta dış alan (iki ayak)<br>
+          Böbrek – Taban orta iç nokta (iki ayak)
+        </td>
+        <td>10 dk Bacak → 15 dk Lenf → 10 dk Böbrek → 5 dk Bacak</td>
+        <td>Bacak → Lenf → Böbrek → Bacak</td>
+        <td>ST36, SP6, KD3</td>
+      </tr>
+
+      <!-- C HARFİ HASTALIKLARI -->
+
+      <tr>
+        <td>Çarpıntı (Kalp ritim bozukluğu, hızlı atım) (70%)</td>
+        <td>
+          Kalp – Ayak sol üst iç bölgesi (iki ayak)<br>
+          Solar Pleksus – Taban ortası çukur (iki ayak)<br>
+          Beyin – Başparmak ucu (iki ayak)
+        </td>
+        <td>10 dk Kalp → 15 dk Solar Pleksus → 10 dk Beyin → 5 dk Kalp</td>
+        <td>Kalp → Solar Pleksus → Beyin → Kalp</td>
+        <td>HT7, PC6, CV17</td>
+      </tr>
+
+      <tr>
+        <td>Çölyak Hastalığı (Gluten intoleransı, bağırsak hasarı) (65%)</td>
+        <td>
+          İnce Bağırsak – Taban orta iç çizgi (iki ayak)<br>
+          Kolon – Taban dış çizgi (iki ayak)<br>
+          Solar Pleksus – Taban ortası çukur (iki ayak)
+        </td>
+        <td>10 dk İnce Bağırsak → 10 dk Kolon → 15 dk Solar Pleksus → 5 dk Kolon</td>
+        <td>İnce Bağırsak → Kolon → Solar Pleksus → Kolon</td>
+        <td>ST25, ST36, CV12</td>
+      </tr>
+
+      <tr>
+        <td>Cilt Alerjisi (Kaşıntı, kızarıklık, dermatit) (70%)</td>
+        <td>
+          Adrenaller – Taban orta iç alan (iki ayak)<br>
+          Solar Pleksus – Taban ortası çukur (iki ayak)<br>
+          Cilt Noktaları – Ayak üst ve parmaklar (iki ayak)
+        </td>
+        <td>10 dk Adrenaller → 10 dk Solar Pleksus → 15 dk Cilt Noktaları → 5 dk Adrenaller</td>
+        <td>Adrenaller → Solar Pleksus → Cilt → Adrenaller</td>
+        <td>KD3, CV17, LI11</td>
+      </tr>
+
+      <tr>
+        <td>Cilt Kuruluğu (Deri elastikiyeti ve nem kaybı) (65%)</td>
+        <td>
+          Böbrek – Taban orta iç nokta (iki ayak)<br>
+          Adrenaller – Taban orta iç alan (iki ayak)<br>
+          Cilt Noktaları – Ayak üst bölgesi (iki ayak)
+        </td>
+        <td>10 dk Böbrek → 10 dk Adrenaller → 15 dk Cilt → 5 dk Böbrek</td>
+        <td>Böbrek → Adrenaller → Cilt → Böbrek</td>
+        <td>BL23, KD3, LI11</td>
+      </tr>
+
+      <tr>
+        <td>Çocuklarda İştahsızlık (Beslenme yetersizliği, büyüme geriliği) (65%)</td>
+        <td>
+          Mide – Taban orta iç (iki ayak)<br>
+          Pankreas – Taban ortası iç (iki ayak)<br>
+          Beyin – Başparmak ucu (iki ayak)
+        </td>
+        <td>10 dk Mide → 15 dk Pankreas → 10 dk Beyin → 5 dk Mide</td>
+        <td>Mide → Pankreas → Beyin → Mide</td>
+        <td>ST36, CV12, GV20</td>
+      </tr>
+
+      <tr>
+        <td>Cinsel İşlev Bozukluğu (Libido azalması, erektil disfonksiyon) (65%)</td>
+        <td>
+          Böbrek – Taban orta iç nokta (iki ayak)<br>
+          Pelvis – Ayak taban orta alt (iki ayak)<br>
+          Solar Pleksus – Taban ortası çukur (iki ayak)
+        </td>
+        <td>10 dk Böbrek → 10 dk Pelvis → 15 dk Solar Pleksus → 5 dk Böbrek</td>
+        <td>Böbrek → Pelvis → Solar Pleksus → Böbrek</td>
+        <td>KD3, CV6, CV17</td>
+      </tr>
+
+      <tr>
+        <td>Cilt Enfeksiyonu (Bakteriyel veya mantar kaynaklı) (70%)</td>
+        <td>
+          Adrenaller – Taban orta iç alan (iki ayak)<br>
+          Cilt Noktaları – Ayak üst bölgesi ve parmaklar (iki ayak)<br>
+          Solar Pleksus – Taban ortası çukur (iki ayak)
+        </td>
+        <td>10 dk Adrenaller → 15 dk Cilt Noktaları → 10 dk Solar Pleksus → 5 dk Adrenaller</td>
+        <td>Adrenaller → Cilt → Solar Pleksus → Adrenaller</td>
+        <td>KD3, LI11, CV17</td>
+      </tr>
+
+      <tr>
+        <td>Cilt Lekeleri / Pigmentasyon (Melanin düzensizliği) (65%)</td>
+        <td>
+          Böbrek – Taban orta iç nokta (iki ayak)<br>
+          Karaciğer – Ayak taban orta dış alan (iki ayak)<br>
+          Cilt Noktaları – Ayak üst bölgesi (iki ayak)
+        </td>
+        <td>10 dk Böbrek → 10 dk Karaciğer → 15 dk Cilt → 5 dk Böbrek</td>
+        <td>Böbrek → Karaciğer → Cilt → Böbrek</td>
+        <td>BL23, LR3, LI11</td>
+      </tr>
+
+      <tr>
+        <td>Çocuklarda Uyku Bozukluğu (Gece uyanmaları, huzursuzluk) (65%)</td>
+        <td>
+          Beyin – Başparmak ucu (iki ayak)<br>
+          Solar Pleksus – Taban ortası çukur (iki ayak)<br>
+          Böbrek – Taban orta iç nokta (iki ayak)
+        </td>
+        <td>10 dk Beyin → 15 dk Solar Pleksus → 10 dk Böbrek → 5 dk Beyin</td>
+        <td>Beyin → Solar Pleksus → Böbrek → Beyin</td>
+        <td>GV20, CV17, KD3</td>
+      </tr>
+
+      <tr>
+        <td>Çocuklarda Kabızlık / Sindirim Bozukluğu (65%)</td>
+        <td>
+          Kolon – Taban dış şerit (iki ayak)<br>
+          Karın – Taban orta alt (iki ayak)<br>
+          Solar Pleksus – Taban ortası çukur (iki ayak)
+        </td>
+        <td>10 dk Kolon → 10 dk Karın → 15 dk Solar Pleksus → 5 dk Karın</td>
+        <td>Kolon → Karın → Solar Pleksus → Karın</td>
+        <td>ST25, ST36, CV6</td>
+      </tr>
+
+      <tr>
+        <td>Çocuklarda İshal / Gastroenterit (65%)</td>
+        <td>
+          Kolon – Taban dış şerit (iki ayak)<br>
+          İnce Bağırsak – Taban orta iç çizgi (iki ayak)<br>
+          Solar Pleksus – Taban ortası çukur (iki ayak)
+        </td>
+        <td>10 dk Kolon → 10 dk İnce Bağırsak → 15 dk Solar Pleksus → 5 dk Kolon</td>
+        <td>Kolon → İnce Bağırsak → Solar Pleksus → Kolon</td>
+        <td>ST25, ST36, CV12</td>
+      </tr>
+
+
+      <!-- D HARFİ HASTALIKLARI -->
+
+      <tr>
+        <td>Depresyon (Düşük ruh hali, motivasyon kaybı) (65%)</td>
+        <td>
+          Beyin – Başparmak ucu (iki ayak)<br>
+          Solar Pleksus – Taban ortası çukur (iki ayak)<br>
+          Böbrek – Taban orta iç nokta (iki ayak)
+        </td>
+        <td>10 dk Beyin → 15 dk Solar Pleksus → 10 dk Böbrek → 5 dk Beyin</td>
+        <td>Beyin → Solar Pleksus → Böbrek → Beyin</td>
+        <td>GV20, CV17, KD3</td>
+      </tr>
+
+      <tr>
+        <td>Diyabet Tip 2 (Kan şekeri yüksekliği, insülin direnci) (70%)</td>
+        <td>
+          Pankreas – Taban orta iç alan (iki ayak)<br>
+          Böbrek – Taban orta iç nokta (iki ayak)<br>
+          Karaciğer – Taban orta dış alan (iki ayak)
+        </td>
+        <td>10 dk Pankreas → 10 dk Böbrek → 15 dk Karaciğer → 5 dk Pankreas</td>
+        <td>Pankreas → Böbrek → Karaciğer → Pankreas</td>
+        <td>CV12, KD3, LR3</td>
+      </tr>
+
+      <tr>
+        <td>Diz Ağrısı / Artrit (Eklem iltihabı ve ağrı) (65%)</td>
+        <td>
+          Diz Noktası – Ayak üst orta bölge (iki ayak)<br>
+          Omurga – Ayak iç kenarı çizgisi (iki ayak)<br>
+          Solar Pleksus – Taban ortası çukur (iki ayak)
+        </td>
+        <td>10 dk Diz → 10 dk Omurga → 15 dk Solar Pleksus → 5 dk Diz</td>
+        <td>Diz → Omurga → Solar Pleksus → Diz</td>
+        <td>ST35, BL23, CV17</td>
+      </tr>
+
+      <tr>
+        <td>Diş Ağrısı / Apseler (65%)</td>
+        <td>
+          Diş Noktaları – Ayak parmakları ve üst bölge (iki ayak)<br>
+          Beyin – Başparmak ucu (iki ayak)<br>
+          Solar Pleksus – Taban ortası çukur (iki ayak)
+        </td>
+        <td>10 dk Diş Noktaları → 10 dk Beyin → 15 dk Solar Pleksus → 5 dk Diş Noktaları</td>
+        <td>Diş → Beyin → Solar Pleksus → Diş</td>
+        <td>LI4, GV20, CV17</td>
+      </tr>
+
+      <tr>
+        <td>Damar Sertliği / Hipertansiyon (65%)</td>
+        <td>
+          Kalp – Taban üst iç bölge (iki ayak)<br>
+          Böbrek – Taban orta iç nokta (iki ayak)<br>
+          Solar Pleksus – Taban ortası çukur (iki ayak)
+        </td>
+        <td>10 dk Kalp → 10 dk Böbrek → 15 dk Solar Pleksus → 5 dk Kalp</td>
+        <td>Kalp → Böbrek → Solar Pleksus → Kalp</td>
+        <td>HT7, KD3, CV17</td>
+      </tr>
+
+      <tr>
+        <td>Dolaşım Bozukluğu / Soğuk El-Ayak (65%)</td>
+        <td>
+          Kalp – Taban üst iç alan (iki ayak)<br>
+          Böbrek – Taban orta iç nokta (iki ayak)<br>
+          Ayak Parmakları – Taban uç bölge (iki ayak)
+        </td>
+        <td>10 dk Kalp → 10 dk Böbrek → 15 dk Ayak Parmakları → 5 dk Kalp</td>
+        <td>Kalp → Böbrek → Ayak Parmakları → Kalp</td>
+        <td>HT7, KD3, LI4</td>
+      </tr>
+
+      <tr>
+        <td>Diyare / Bağırsak Hızlı Çalışması (65%)</td>
+        <td>
+          Kolon – Taban dış şerit (iki ayak)<br>
+          İnce Bağırsak – Taban orta iç çizgi (iki ayak)<br>
+          Solar Pleksus – Taban ortası çukur (iki ayak)
+        </td>
+        <td>10 dk Kolon → 10 dk İnce Bağırsak → 15 dk Solar Pleksus → 5 dk Kolon</td>
+        <td>Kolon → İnce Bağırsak → Solar Pleksus → Kolon</td>
+        <td>ST25, ST36, CV12</td>
+      </tr>
+
+      <tr>
+        <td>Divertikülit / Bağırsak iltihabı (65%)</td>
+        <td>
+          Kolon – Taban dış şerit (iki ayak)<br>
+          Solar Pleksus – Taban ortası çukur (iki ayak)<br>
+          Karın – Taban orta alt (iki ayak)
+        </td>
+        <td>10 dk Kolon → 15 dk Solar Pleksus → 10 dk Karın → 5 dk Kolon</td>
+        <td>Kolon → Solar Pleksus → Karın → Kolon</td>
+        <td>ST25, CV17, CV6</td>
+      </tr>
+
+      <tr>
+        <td>Dengede Bozukluk / Vertigo (65%)</td>
+        <td>
+          Beyin – Başparmak ucu (iki ayak)<br>
+          Ayak Topuk – İç/orta çizgi (iki ayak)<br>
+          Solar Pleksus – Taban ortası çukur (iki ayak)
+        </td>
+        <td>10 dk Beyin → 10 dk Topuk → 15 dk Solar Pleksus → 5 dk Beyin</td>
+        <td>Beyin → Topuk → Solar Pleksus → Beyin</td>
+        <td>GV20, BL60, CV17</td>
+      </tr>
+
+      <tr>
+        <td>Duygusal Stres / Kaygı (65%)</td>
+        <td>
+          Beyin – Başparmak ucu (iki ayak)<br>
+          Solar Pleksus – Taban ortası çukur (iki ayak)<br>
+          Adrenaller – Taban orta iç nokta (iki ayak)
+        </td>
+        <td>10 dk Beyin → 15 dk Solar Pleksus → 10 dk Adrenaller → 5 dk Beyin</td>
+        <td>Beyin → Solar Pleksus → Adrenaller → Beyin</td>
+        <td>GV20, CV17, KD3</td>
+      </tr>
+
+      <tr>
+        <td>Dikkat Eksikliği / Hiperaktivite (65%)</td>
+        <td>
+          Beyin – Başparmak ucu (iki ayak)<br>
+          Solar Pleksus – Taban ortası çukur (iki ayak)<br>
+          Böbrek – Taban orta iç nokta (iki ayak)
+        </td>
+        <td>10 dk Beyin → 15 dk Solar Pleksus → 10 dk Böbrek → 5 dk Beyin</td>
+        <td>Beyin → Solar Pleksus → Böbrek → Beyin</td>
+        <td>GV20, CV17, KD3</td>
+      </tr>
+
+      <tr>
+        <td>Dış Kulak İltihabı (Otitis) (65%)</td>
+        <td>
+          Kulak Noktaları – Ayak üst dış bölge (iki ayak)<br>
+          Beyin – Başparmak ucu (iki ayak)<br>
+          Solar Pleksus – Taban ortası çukur (iki ayak)
+        </td>
+        <td>10 dk Kulak → 10 dk Beyin → 15 dk Solar Pleksus → 5 dk Kulak</td>
+        <td>Kulak → Beyin → Solar Pleksus → Kulak</td>
+        <td>SI19, GV20, CV17</td>
+      </tr>
+
+      <!-- E HARFİ HASTALIKLARI -->
+
+      <tr>
+        <td>Eklem Ağrısı / Artrit (İltihap ve hareket kısıtlılığı) (65%)</td>
+        <td>
+          Eklem Noktaları – Ayak parmakları ve üst bölge (iki ayak)<br>
+          Omurga – Ayak iç kenarı çizgisi (iki ayak)<br>
+          Solar Pleksus – Taban ortası çukur (iki ayak)
+        </td>
+        <td>10 dk Eklem → 10 dk Omurga → 15 dk Solar Pleksus → 5 dk Eklem</td>
+        <td>Eklem → Omurga → Solar Pleksus → Eklem</td>
+        <td>ST35, BL23, CV17</td>
+      </tr>
+
+      <tr>
+        <td>Enerji Düşüklüğü / Kronik Yorgunluk (65%)</td>
+        <td>
+          Beyin – Başparmak ucu (iki ayak)<br>
+          Böbrek – Taban orta iç nokta (iki ayak)<br>
+          Adrenaller – Taban orta iç nokta (iki ayak)
+        </td>
+        <td>10 dk Beyin → 15 dk Böbrek → 10 dk Adrenaller → 5 dk Beyin</td>
+        <td>Beyin → Böbrek → Adrenaller → Beyin</td>
+        <td>GV20, KD3, CV17</td>
+      </tr>
+
+      <tr>
+        <td>Epilepsi / Nöbet Bozukluğu (65%)</td>
+        <td>
+          Beyin – Başparmak ucu (iki ayak)<br>
+          Solar Pleksus – Taban ortası çukur (iki ayak)<br>
+          Böbrek – Taban orta iç nokta (iki ayak)
+        </td>
+        <td>10 dk Beyin → 15 dk Solar Pleksus → 10 dk Böbrek → 5 dk Beyin</td>
+        <td>Beyin → Solar Pleksus → Böbrek → Beyin</td>
+        <td>GV20, CV17, KD3</td>
+      </tr>
+
+      <tr>
+        <td>Eklem Tutukluğu / Sertlik (65%)</td>
+        <td>
+          Eklem Noktaları – Ayak üst orta bölge (iki ayak)<br>
+          Omurga – Ayak iç kenarı çizgisi (iki ayak)<br>
+          Solar Pleksus – Taban ortası çukur (iki ayak)
+        </td>
+        <td>10 dk Eklem → 10 dk Omurga → 15 dk Solar Pleksus → 5 dk Eklem</td>
+        <td>Eklem → Omurga → Solar Pleksus → Eklem</td>
+        <td>ST35, BL23, CV17</td>
+      </tr>
+
+      <tr>
+        <td>Endokrin Dengesizlik (Hormon bozuklukları) (65%)</td>
+        <td>
+          Tiroid – Başparmak alt iç bölge (iki ayak)<br>
+          Böbrek – Taban orta iç nokta (iki ayak)<br>
+          Adrenaller – Taban orta iç nokta (iki ayak)
+        </td>
+        <td>10 dk Tiroid → 15 dk Böbrek → 10 dk Adrenaller → 5 dk Tiroid</td>
+        <td>Tiroid → Böbrek → Adrenaller → Tiroid</td>
+        <td>CV22, KD3, GV20</td>
+      </tr>
+
+      <tr>
+        <td>Egzama / Cilt Kaşıntısı (65%)</td>
+        <td>
+          Cilt Noktaları – Ayak üst dış bölge (iki ayak)<br>
+          Solar Pleksus – Taban ortası çukur (iki ayak)<br>
+          Böbrek – Taban orta iç nokta (iki ayak)
+        </td>
+        <td>10 dk Cilt → 15 dk Solar Pleksus → 10 dk Böbrek → 5 dk Cilt</td>
+        <td>Cilt → Solar Pleksus → Böbrek → Cilt</td>
+        <td>LI11, CV17, KD3</td>
+      </tr>
+
+      <tr>
+        <td>Enfeksiyon / Bağışıklık Zayıflığı (65%)</td>
+        <td>
+          Böbrek – Taban orta iç nokta (iki ayak)<br>
+          Adrenaller – Taban orta iç nokta (iki ayak)<br>
+          Solar Pleksus – Taban ortası çukur (iki ayak)
+        </td>
+        <td>10 dk Böbrek → 15 dk Adrenaller → 10 dk Solar Pleksus → 5 dk Böbrek</td>
+        <td>Böbrek → Adrenaller → Solar Pleksus → Böbrek</td>
+        <td>KD3, GV20, CV17</td>
+      </tr>
+
+      <tr>
+        <td>El Titremesi / Parkinson Belirtileri (65%)</td>
+        <td>
+          Beyin – Başparmak ucu (iki ayak)<br>
+          Kol – Taban üst dış bölge (iki ayak)<br>
+          Solar Pleksus – Taban ortası çukur (iki ayak)
+        </td>
+        <td>10 dk Beyin → 10 dk Kol → 15 dk Solar Pleksus → 5 dk Beyin</td>
+        <td>Beyin → Kol → Solar Pleksus → Beyin</td>
+        <td>GV20, LI4, CV17</td>
+      </tr>
+
+      <tr>
+        <td>Endometriozis / Kadın Üreme Bozukluğu (65%)</td>
+        <td>
+          Rahim – Taban orta alt bölge (iki ayak)<br>
+          Böbrek – Taban orta iç nokta (iki ayak)<br>
+          Solar Pleksus – Taban ortası çukur (iki ayak)
+        </td>
+        <td>10 dk Rahim → 15 dk Böbrek → 10 dk Solar Pleksus → 5 dk Rahim</td>
+        <td>Rahim → Böbrek → Solar Pleksus → Rahim</td>
+        <td>CV4, KD3, CV17</td>
+      </tr>
+
+      <!-- F HARFİ HASTALIKLARI -->
+
+      <tr>
+        <td>Fibromiyalji (Kas ağrıları, yaygın hassasiyet) (65%)</td>
+        <td>
+          Kas Noktaları – Ayak topuğu, taban ve parmaklar (iki ayak)<br>
+          Omurga – Ayak iç kenarı çizgisi (iki ayak)<br>
+          Solar Pleksus – Taban ortası çukur (iki ayak)
+        </td>
+        <td>10 dk Kas → 10 dk Omurga → 15 dk Solar Pleksus → 5 dk Kas</td>
+        <td>Kas → Omurga → Solar Pleksus → Kas</td>
+        <td>BL23, ST36, CV17</td>
+      </tr>
+
+      <tr>
+        <td>Fıtık (Bel veya Boyun Fıtığı) (65%)</td>
+        <td>
+          Beyin – Başparmak ucu (iki ayak)<br>
+          Omurga – Ayak iç kenarı çizgisi (iki ayak)<br>
+          Böbrek – Taban orta iç nokta (iki ayak)<br>
+          Kalça – Taban arka dış bölge (iki ayak)
+        </td>
+        <td>5 dk Beyin → 10 dk Omurga → 10 dk Böbrek → 10 dk Kalça → 5 dk Beyin</td>
+        <td>Beyin → Omurga → Böbrek → Kalça → Beyin</td>
+        <td>BL23, BL40, GB30, ST36</td>
+      </tr>
+
+      <tr>
+        <td>Frontal Sinüzit / Baş Ağrısı (65%)</td>
+        <td>
+          Sinüs Noktaları – Ayak parmak üstleri ve başparmak (iki ayak)<br>
+          Solar Pleksus – Taban ortası çukur (iki ayak)<br>
+          Beyin – Başparmak ucu (iki ayak)
+        </td>
+        <td>10 dk Sinüs → 15 dk Solar Pleksus → 10 dk Beyin → 5 dk Sinüs</td>
+        <td>Sinüs → Solar Pleksus → Beyin → Sinüs</td>
+        <td>LI20, GV20, CV17</td>
+      </tr>
+
+      <tr>
+        <td>Felç / İnme Sonrası Kas Tutulması (65%)</td>
+        <td>
+          Beyin – Başparmak ucu (iki ayak)<br>
+          Kol ve Bacak Noktaları – Ayak dış ve üst bölgeleri (iki ayak)<br>
+          Omurga – Ayak iç kenarı çizgisi (iki ayak)
+        </td>
+        <td>10 dk Beyin → 10 dk Kol/Bacak → 15 dk Omurga → 5 dk Beyin</td>
+        <td>Beyin → Kol/Bacak → Omurga → Beyin</td>
+        <td>GV20, LI4, BL23</td>
+      </tr>
+
+      <tr>
+        <td>Fibroz / Akciğer Sertleşmesi (65%)</td>
+        <td>
+          Akciğer – Taban üst dış bölge (iki ayak)<br>
+          Bronş – Taban üst bölge (iki ayak)<br>
+          Diyafram – Taban ortası yatay hat (iki ayak)
+        </td>
+        <td>10 dk Akciğer → 10 dk Bronş → 15 dk Diyafram → 5 dk Akciğer</td>
+        <td>Akciğer → Bronş → Diyafram → Akciğer</td>
+        <td>LU1, LU5, CV17</td>
+      </tr>
+
+      <tr>
+        <td>Fobiler / Kaygı Bozuklukları (65%)</td>
+        <td>
+          Beyin – Başparmak ucu (iki ayak)<br>
+          Solar Pleksus – Taban ortası çukur (iki ayak)<br>
+          Adrenaller – Taban orta iç nokta (iki ayak)
+        </td>
+        <td>5 dk Beyin → 10 dk Solar Pleksus → 10 dk Adrenaller → 15 dk Beyin</td>
+        <td>Beyin → Solar Pleksus → Adrenaller → Beyin</td>
+        <td>GV20, CV17, KD3</td>
+      </tr>
+
+      <tr>
+        <td>Fasiyal Sinir Felci (Yüzde kas felci) (65%)</td>
+        <td>
+          Yüz Noktaları – Ayak başparmak iç ve üst bölge (iki ayak)<br>
+          Beyin – Başparmak ucu (iki ayak)<br>
+          Solar Pleksus – Taban ortası çukur (iki ayak)
+        </td>
+        <td>10 dk Yüz → 10 dk Beyin → 15 dk Solar Pleksus → 5 dk Yüz</td>
+        <td>Yüz → Beyin → Solar Pleksus → Yüz</td>
+        <td>LI4, GV20, CV17</td>
+      </tr>
+
+      <tr>
+        <td>Fraktür Sonrası Ağrı / İyileşme Destek (65%)</td>
+        <td>
+          Kırık Noktaları – Ayak taban ve üst bölgeleri (iki ayak)<br>
+          Omurga – Ayak iç kenarı çizgisi (iki ayak)<br>
+          Solar Pleksus – Taban ortası çukur (iki ayak)
+        </td>
+        <td>10 dk Kırık Noktaları → 15 dk Omurga → 10 dk Solar Pleksus → 5 dk Kırık Noktaları</td>
+        <td>Kırık → Omurga → Solar Pleksus → Kırık</td>
+        <td>BL23, ST36, CV17</td>
+      </tr>
+
+      <tr>
+        <td>Fonksiyonel Bağırsak Bozuklukları (Kabızlık / İshal) (65%)</td>
+        <td>
+          Kolon – Taban dış şerit (iki ayak)<br>
+          Karın – Taban orta alt (iki ayak)<br>
+          Solar Pleksus – Taban ortası çukur (iki ayak)
+        </td>
+        <td>10 dk Kolon → 10 dk Karın → 15 dk Solar Pleksus → 5 dk Karın</td>
+        <td>Kolon → Karın → Solar Pleksus → Karın</td>
+        <td>ST25, ST36, CV6</td>
+      </tr>
+
+      <tr>
+        <td>Fasiyal Sinir Ağrısı / Trigeminal Nevralji (65%)</td>
+        <td>
+          Yüz Noktaları – Başparmak iç ve üst bölge (iki ayak)<br>
+          Solar Pleksus – Taban ortası çukur (iki ayak)<br>
+          Beyin – Başparmak ucu (iki ayak)
+        </td>
+        <td>10 dk Yüz → 15 dk Solar Pleksus → 10 dk Beyin → 5 dk Yüz</td>
+        <td>Yüz → Solar Pleksus → Beyin → Yüz</td>
+        <td>LI4, CV17, GV20</td>
+      </tr>
+
+      <!-- G HARFİ HASTALIKLARI -->
+      <tr>
+        <td>Gastrit (Mide iltihabı, hazımsızlık, ağrı) (65%)</td>
+        <td>
+          Mide – Sol ayak tarak alt iç bölge<br>
+          Diyafram – Taban ortası yatay hat<br>
+          Vagus siniri – Başparmak iç kenarı
+        </td>
+        <td>10 dk Mide → 15 dk Diyafram → 10 dk Vagus → 5 dk Solar Pleksus</td>
+        <td>Mide → Diyafram → Vagus → Solar Pleksus</td>
+        <td>ST36, CV12, PC6</td>
+      </tr>
+
+      <tr>
+        <td>Göz Yorgunluğu / Görme Problemleri (65%)</td>
+        <td>
+          Göz Noktaları – Ayak başparmak ve ikinci parmak (iki ayak)<br>
+          Beyin – Başparmak ucu (iki ayak)<br>
+          Solar Pleksus – Taban ortası çukur (iki ayak)
+        </td>
+        <td>10 dk Göz → 15 dk Beyin → 10 dk Solar Pleksus → 5 dk Göz</td>
+        <td>Göz → Beyin → Solar Pleksus → Göz</td>
+        <td>BL1, GV20, CV17</td>
+      </tr>
+
+      <tr>
+        <td>Gıda Alerjisi / Bağışıklık Tepkisi (65%)</td>
+        <td>
+          Bağışıklık Noktaları – Taban orta iç ve başparmak (iki ayak)<br>
+          Diyafram – Taban ortası yatay hat (iki ayak)
+        </td>
+        <td>10 dk Bağışıklık → 15 dk Diyafram → 15 dk Bağışıklık</td>
+        <td>Bağışıklık → Diyafram → Bağışıklık</td>
+        <td>LI11, ST36, CV17</td>
+      </tr>
+
+      <tr>
+        <td>Gingivit / Diş Eti İltihabı (65%)</td>
+        <td>
+          Diş ve Diş Eti Noktaları – Ayak başparmak ve ikinci parmak (iki ayak)<br>
+          Solar Pleksus – Taban ortası çukur (iki ayak)
+        </td>
+        <td>10 dk Diş → 15 dk Solar Pleksus → 15 dk Diş</td>
+        <td>Diş → Solar Pleksus → Diş</td>
+        <td>LI4, ST6, CV17</td>
+      </tr>
+
+      <tr>
+        <td>Guatr / Tiroid Büyümesi (65%)</td>
+        <td>
+          Tiroid Noktası – Başparmak iç kenarı (iki ayak)<br>
+          Beyin – Başparmak ucu (iki ayak)<br>
+          Solar Pleksus – Taban ortası çukur (iki ayak)
+        </td>
+        <td>10 dk Tiroid → 15 dk Beyin → 10 dk Solar Pleksus → 5 dk Tiroid</td>
+        <td>Tiroid → Beyin → Solar Pleksus → Tiroid</td>
+        <td>CV22, GV20, KD3</td>
+      </tr>
+
+      <tr>
+        <td>Gastroözofageal Reflü (Mide ekşimesi) (65%)</td>
+        <td>
+          Mide – Sol ayak tarak alt iç bölge<br>
+          Özofagus – Taban ortası üst bölge (iki ayak)<br>
+          Diyafram – Taban ortası yatay hat
+        </td>
+        <td>10 dk Mide → 10 dk Özofagus → 15 dk Diyafram → 5 dk Mide</td>
+        <td>Mide → Özofagus → Diyafram → Mide</td>
+        <td>ST36, CV12, PC6</td>
+      </tr>
+
+      <tr>
+        <td>Gastrik Ülser (Mide ve duodenum yarası) (65%)</td>
+        <td>
+          Mide – Sol ayak tarak alt iç bölge<br>
+          Duodenum – Ayak taban orta üst bölge<br>
+          Diyafram – Taban ortası yatay hat
+        </td>
+        <td>10 dk Mide → 10 dk Duodenum → 15 dk Diyafram → 5 dk Mide</td>
+        <td>Mide → Duodenum → Diyafram → Mide</td>
+        <td>ST36, CV12, BL21</td>
+      </tr>
+
+      <!-- H HARFİ HASTALIKLARI -->
+      <tr>
+        <td>Hipertansiyon (Yüksek tansiyon, baş ağrısı, yorgunluk) (65%)</td>
+        <td>
+          Kalp – Sol ayak üst bölge<br>
+          Beyin – Başparmak ucu (iki ayak)<br>
+          Böbrek – Taban ortası iç nokta
+        </td>
+        <td>10 dk Kalp → 10 dk Beyin → 15 dk Böbrek → 5 dk Kalp</td>
+        <td>Kalp → Beyin → Böbrek → Kalp</td>
+        <td>LI11, PC6, KD3</td>
+      </tr>
+
+      <tr>
+        <td>Hipotiroidi (Tiroid az çalışması, halsizlik, kilo artışı) (65%)</td>
+        <td>
+          Tiroid Noktası – Başparmak iç kenarı (iki ayak)<br>
+          Beyin – Başparmak ucu (iki ayak)<br>
+          Solar Pleksus – Taban ortası çukur
+        </td>
+        <td>10 dk Tiroid → 15 dk Beyin → 10 dk Solar Pleksus → 5 dk Tiroid</td>
+        <td>Tiroid → Beyin → Solar Pleksus → Tiroid</td>
+        <td>CV22, GV20, KD3</td>
+      </tr>
+
+      <tr>
+        <td>Hiperglisemi / Diyabet (Kan şekeri yüksekliği) (65%)</td>
+        <td>
+          Pankreas – Taban orta iç bölge (iki ayak)<br>
+          Diyafram – Taban ortası yatay hat<br>
+          Solar Pleksus – Taban ortası çukur
+        </td>
+        <td>10 dk Pankreas → 15 dk Diyafram → 10 dk Solar Pleksus → 5 dk Pankreas</td>
+        <td>Pankreas → Diyafram → Solar Pleksus → Pankreas</td>
+        <td>ST36, CV12, PC6</td>
+      </tr>
+
+      <tr>
+        <td>Horlama / Uyku Bozukluğu (65%)</td>
+        <td>
+          Bronş – Taban üst dış bölge (iki ayak)<br>
+          Akciğer – Taban üst geniş alan (iki ayak)<br>
+          Beyin – Başparmak ucu (iki ayak)
+        </td>
+        <td>10 dk Bronş → 15 dk Akciğer → 10 dk Beyin → 5 dk Bronş</td>
+        <td>Bronş → Akciğer → Beyin → Bronş</td>
+        <td>LU1, LU9, GV20</td>
+      </tr>
+
+      <!-- I / İ HARFİ HASTALIKLARI -->
+      <tr>
+        <td>İdrar Yolu Enfeksiyonu (Mesane ve böbrek iltihabı, sık idrara çıkma) (65%)</td>
+        <td>
+          Mesane – Ayak topuk iç bölgesi (iki ayak)<br>
+          Böbrek – Taban ortası iç nokta (iki ayak)<br>
+          Solar Pleksus – Taban ortası çukur
+        </td>
+        <td>10 dk Mesane → 10 dk Böbrek → 15 dk Solar Pleksus → 5 dk Mesane</td>
+        <td>Mesane → Böbrek → Solar Pleksus → Mesane</td>
+        <td>BL23, CV3, KD3</td>
+      </tr>
+
+      <tr>
+        <td>İnflamatuar Bağırsak Hastalığı (İnce ve kalın bağırsakta iltihap, ağrı, ishal) (65%)</td>
+        <td>
+          Kolon – Taban dış şerit (iki ayak)<br>
+          Karın – Taban orta alt (iki ayak)<br>
+          Solar Pleksus – Taban ortası çukur
+        </td>
+        <td>10 dk Kolon → 10 dk Karın → 15 dk Solar Pleksus → 5 dk Karın</td>
+        <td>Kolon → Karın → Solar Pleksus → Karın</td>
+        <td>ST25, ST36, CV6</td>
+      </tr>
+
+      <tr>
+        <td>İrritabl Kolon Sendromu (Bağırsak spazmları, kabızlık/ishal) (65%)</td>
+        <td>
+          Kolon – Taban dış şerit (iki ayak)<br>
+          Karın – Taban orta alt (iki ayak)<br>
+          Solar Pleksus – Taban ortası çukur
+        </td>
+        <td>10 dk Kolon → 10 dk Karın → 15 dk Solar Pleksus → 5 dk Karın</td>
+        <td>Kolon → Karın → Solar Pleksus → Karın</td>
+        <td>ST25, ST36, CV6</td>
+      </tr>
+
+      <tr>
+        <td>İdrara Çıkamama / Üriner Retansiyon (Mesanenin boşaltılamaması, idrar tutulması) (65%)</td>
+        <td>
+          Mesane – Ayak topuk iç bölgesi (iki ayak)<br>
+          Böbrek – Taban ortası iç nokta (iki ayak)<br>
+          Solar Pleksus – Taban ortası çukur
+        </td>
+        <td>10 dk Mesane → 10 dk Böbrek → 15 dk Solar Pleksus → 5 dk Mesane</td>
+        <td>Mesane → Böbrek → Solar Pleksus → Mesane</td>
+        <td>BL23, CV3, KD3</td>
+      </tr>
+      <!-- J HARFİ HASTALIKLARI -->
+      <tr>
+        <td>Jinekomasti (Erkeklerde göğüs dokusu büyümesi, hormonal dengesizlik) (60%)</td>
+        <td>
+          Göğüs – Taban orta üst bölge (iki ayak)<br>
+          Beyin – Başparmak ucu (iki ayak)<br>
+          Adrenaller – Taban orta iç nokta
+        </td>
+        <td>10 dk Göğüs → 15 dk Beyin → 10 dk Adrenaller → 5 dk Göğüs</td>
+        <td>Göğüs → Beyin → Adrenaller → Göğüs</td>
+        <td>CV17, GV20, KD3</td>
+      </tr>
+
+      <tr>
+        <td>Joints Ağrısı / Eklem Ağrısı (Genel eklem sertliği ve ağrı) (65%)</td>
+        <td>
+          Eklem Noktaları – Ayak üst ve yan bölge (iki ayak)<br>
+          Solar Pleksus – Taban ortası çukur (iki ayak)
+        </td>
+        <td>10 dk Eklem → 15 dk Solar Pleksus → 15 dk Eklem</td>
+        <td>Eklem → Solar Pleksus → Eklem</td>
+        <td>LI4, ST36, CV17</td>
+      </tr>
+
+      <!-- K HARFİ HASTALIKLARI -->
+      <tr>
+        <td>Kabızlık (Bağırsak hareketlerinin yavaşlaması, zor dışkılama) (65%)</td>
+        <td>
+          Kolon – Taban dış şerit (iki ayak)<br>
+          Karın – Taban orta alt (iki ayak)<br>
+          Solar Pleksus – Taban ortası çukur
+        </td>
+        <td>10 dk Kolon → 10 dk Karın → 15 dk Solar Pleksus → 5 dk Karın</td>
+        <td>Kolon → Karın → Solar Pleksus → Karın</td>
+        <td>ST25, ST36, CV6</td>
+      </tr>
+
+      <tr>
+        <td>Kolesterol Yüksekliği (Kan yağlarının yükselmesi) (60%)</td>
+        <td>
+          Karaciğer – Sol ayak üst iç bölge<br>
+          Böbrek – Taban ortası iç nokta<br>
+          Solar Pleksus – Taban ortası çukur
+        </td>
+        <td>10 dk Karaciğer → 10 dk Böbrek → 15 dk Solar Pleksus → 5 dk Karaciğer</td>
+        <td>Karaciğer → Böbrek → Solar Pleksus → Karaciğer</td>
+        <td>LR3, KD3, CV17</td>
+      </tr>
+
+      <tr>
+        <td>Kidney / Böbrek Yetmezliği (Böbrek fonksiyon bozukluğu) (65%)</td>
+        <td>
+          Böbrek – Taban ortası iç nokta (iki ayak)<br>
+          Adrenaller – Taban orta iç nokta<br>
+          Solar Pleksus – Taban ortası çukur
+        </td>
+        <td>10 dk Böbrek → 15 dk Adrenaller → 10 dk Solar Pleksus → 5 dk Böbrek</td>
+        <td>Böbrek → Adrenaller → Solar Pleksus → Böbrek</td>
+        <td>BL23, KD3, CV17</td>
+      </tr>
+
+      <tr>
+        <td>Kas Spazmları / Kramp (Kaslarda istemsiz kasılma ve ağrı) (65%)</td>
+        <td>
+          Kas – Ayak taban ve yan bölgeler (iki ayak)<br>
+          Solar Pleksus – Taban ortası çukur<br>
+          Beyin – Başparmak ucu
+        </td>
+        <td>10 dk Kas → 15 dk Solar Pleksus → 10 dk Beyin → 5 dk Kas</td>
+        <td>Kas → Solar Pleksus → Beyin → Kas</td>
+        <td>ST36, LI4, GV20</td>
+      </tr>
+
+      <!-- L HARFİ HASTALIKLARI -->
+      <tr>
+        <td>Lenf Bezi Şişmesi / Lenfatik Sorunlar (Bağışıklık zayıflığı, şişlik) (65%)</td>
+        <td>
+          Lenf Noktaları – Ayak taban iç ve yan bölgeler (iki ayak)<br>
+          Solar Pleksus – Taban ortası çukur
+        </td>
+        <td>10 dk Lenf → 15 dk Solar Pleksus → 15 dk Lenf</td>
+        <td>Lenf → Solar Pleksus → Lenf</td>
+        <td>LI4, ST36, CV17</td>
+      </tr>
+
+      <tr>
+        <td>Laringit (Ses tellerinde iltihap, boğaz ağrısı, ses kısıklığı) (65%)</td>
+        <td>
+          Boğaz / Larenks – Başparmak iç kenarı (iki ayak)<br>
+          Beyin – Başparmak ucu (iki ayak)<br>
+          Solar Pleksus – Taban ortası çukur
+        </td>
+        <td>10 dk Boğaz → 15 dk Beyin → 10 dk Solar Pleksus → 5 dk Boğaz</td>
+        <td>Boğaz → Beyin → Solar Pleksus → Boğaz</td>
+        <td>CV22, GV20, PC6</td>
+      </tr>
+
+      <tr>
+        <td>Loğusa Depresyonu (Doğum sonrası depresyon, ruhsal dalgalanmalar) (60%)</td>
+        <td>
+          Beyin – Başparmak ucu (iki ayak)<br>
+          Solar Pleksus – Taban ortası çukur<br>
+          Adrenaller – Taban orta iç nokta
+        </td>
+        <td>10 dk Beyin → 15 dk Solar Pleksus → 10 dk Adrenaller → 5 dk Beyin</td>
+        <td>Beyin → Solar Pleksus → Adrenaller → Beyin</td>
+        <td>GV20, CV17, KD3</td>
+      </tr>
+
+      <tr>
+        <td>Lumbago / Bel Ağrısı (Bel kaslarında ve omurga bölgesinde ağrı) (65%)</td>
+        <td>
+          Omurga – Ayak iç kenarı boyunca çizgi (iki ayak)<br>
+          Böbrek – Taban ortası yuvarlak nokta (iki ayak)<br>
+          Kalça – Taban arka dış kısmı (iki ayak)
+        </td>
+        <td>5 dk Omurga → 10 dk Böbrek → 15 dk Kalça → 10 dk Omurga</td>
+        <td>Omurga → Böbrek → Kalça → Omurga</td>
+        <td>BL23, GB30, ST36</td>
+      </tr>
+
+      <!-- M HARFİ HASTALIKLARI -->
+      <tr>
+        <td>Migren (Şiddetli baş ağrısı, bulantı, ışığa duyarlılık) (65%)</td>
+        <td>
+          Beyin – Başparmak ucu (iki ayak)<br>
+          Solar Pleksus – Taban ortası çukur<br>
+          Boyun – Başparmak taban çizgisi (iki ayak)
+        </td>
+        <td>10 dk Beyin → 15 dk Solar Pleksus → 10 dk Boyun → 5 dk Beyin</td>
+        <td>Beyin → Solar Pleksus → Boyun → Beyin</td>
+        <td>GV20, CV17, GB20</td>
+      </tr>
+
+      <tr>
+        <td>Menstrüel Ağrı / Dysmenore (Adet sancısı, kramplar) (65%)</td>
+        <td>
+          Karın – Taban orta alt bölge (iki ayak)<br>
+          Solar Pleksus – Taban ortası çukur<br>
+          Adrenaller – Taban orta iç nokta
+        </td>
+        <td>10 dk Karın → 15 dk Solar Pleksus → 10 dk Adrenaller → 5 dk Karın</td>
+        <td>Karın → Solar Pleksus → Adrenaller → Karın</td>
+        <td>CV6, CV17, KD3</td>
+      </tr>
+
+      <tr>
+        <td>Mide Problemleri (Gastrit, hazımsızlık, reflü) (65%)</td>
+        <td>
+          Mide – Sol ayak tarak alt iç bölge<br>
+          Diyafram – Taban ortası yatay hat<br>
+          Solar Pleksus – Taban ortası çukur
+        </td>
+        <td>10 dk Mide → 15 dk Diyafram → 10 dk Solar Pleksus → 5 dk Mide</td>
+        <td>Mide → Diyafram → Solar Pleksus → Mide</td>
+        <td>ST36, CV12, CV17</td>
+      </tr>
+
+      <tr>
+        <td>Menopoz Semptomları (Sıcak basmaları, ruhsal dalgalanmalar) (60%)</td>
+        <td>
+          Beyin – Başparmak ucu (iki ayak)<br>
+          Solar Pleksus – Taban ortası çukur<br>
+          Adrenaller – Taban orta iç nokta
+        </td>
+        <td>10 dk Beyin → 15 dk Solar Pleksus → 10 dk Adrenaller → 5 dk Beyin</td>
+        <td>Beyin → Solar Pleksus → Adrenaller → Beyin</td>
+        <td>GV20, CV17, KD3</td>
+      </tr>
+
+      <!-- N HARFİ HASTALIKLARI -->
+      <tr>
+        <td>Nazofarenjit / Burun ve Boğaz İltihabı (Soğuk algınlığı, boğaz ağrısı, burun tıkanıklığı) (65%)</td>
+        <td>
+          Burun – Başparmak üst iç kısmı (iki ayak)<br>
+          Boğaz – Başparmak iç kenarı (iki ayak)<br>
+          Beyin – Başparmak ucu
+        </td>
+        <td>10 dk Burun → 15 dk Boğaz → 10 dk Beyin → 5 dk Burun</td>
+        <td>Burun → Boğaz → Beyin → Burun</td>
+        <td>LI20, CV22, GV20</td>
+      </tr>
+
+      <tr>
+        <td>Nevralji (Sinir ağrısı, yanma veya keskin ağrı) (65%)</td>
+        <td>
+          Sinir – Ayak iç kenarı üst yarısı (iki ayak)<br>
+          Solar Pleksus – Taban ortası çukur<br>
+          Beyin – Başparmak ucu
+        </td>
+        <td>10 dk Sinir → 15 dk Solar Pleksus → 10 dk Beyin → 5 dk Sinir</td>
+        <td>Sinir → Solar Pleksus → Beyin → Sinir</td>
+        <td>LI4, ST36, GV20</td>
+      </tr>
+
+      <tr>
+        <td>Nefrit / Böbrek İltihabı (Böbrek fonksiyon bozukluğu, ağrı, idrar değişiklikleri) (65%)</td>
+        <td>
+          Böbrek – Taban ortası yuvarlak nokta (iki ayak)<br>
+          Adrenaller – Taban orta iç nokta<br>
+          Solar Pleksus – Taban ortası çukur
+        </td>
+        <td>10 dk Böbrek → 15 dk Adrenaller → 10 dk Solar Pleksus → 5 dk Böbrek</td>
+        <td>Böbrek → Adrenaller → Solar Pleksus → Böbrek</td>
+        <td>BL23, KD3, CV17</td>
+      </tr>
+
+      <tr>
+        <td>Nöropati / Sinir Hasarı (Uyuşma, karıncalanma, ağrı) (65%)</td>
+        <td>
+          Sinir – Ayak iç kenarı (iki ayak)<br>
+          Solar Pleksus – Taban ortası çukur<br>
+          Beyin – Başparmak ucu
+        </td>
+        <td>10 dk Sinir → 15 dk Solar Pleksus → 10 dk Beyin → 5 dk Sinir</td>
+        <td>Sinir → Solar Pleksus → Beyin → Sinir</td>
+        <td>LI4, ST36, GV20</td>
+      </tr>
+
+      <!-- O HARFİ HASTALIKLARI -->
+      <tr>
+        <td>Obezite (Aşırı kilo, metabolik dengesizlik) (60%)</td>
+        <td>
+          Karın – Taban orta alt (iki ayak)<br>
+          Solar Pleksus – Taban ortası çukur<br>
+          Böbrek – Taban orta iç nokta
+        </td>
+        <td>10 dk Karın → 15 dk Solar Pleksus → 10 dk Böbrek → 5 dk Karın</td>
+        <td>Karın → Solar Pleksus → Böbrek → Karın</td>
+        <td>CV6, CV17, KD3</td>
+      </tr>
+
+      <tr>
+        <td>Omuz Ağrısı / Donuk Omuz (Omuz hareket kısıtlılığı, ağrı) (65%)</td>
+        <td>
+          Omuz – Taban üst dış alan (iki ayak)<br>
+          Beyin – Başparmak ucu (iki ayak)<br>
+          Solar Pleksus – Taban ortası çukur
+        </td>
+        <td>10 dk Omuz → 15 dk Beyin → 10 dk Solar Pleksus → 5 dk Omuz</td>
+        <td>Omuz → Beyin → Solar Pleksus → Omuz</td>
+        <td>LI15, GV20, CV17</td>
+      </tr>
+
+      <tr>
+        <td>Obstruktif Uyku Apnesi (Solunum durması, horlama) (60%)</td>
+        <td>
+          Beyin – Başparmak ucu (iki ayak)<br>
+          Bronş – Taban üst dış (iki ayak)<br>
+          Diyafram – Taban ortası yatay hat
+        </td>
+        <td>10 dk Beyin → 15 dk Bronş → 10 dk Diyafram → 5 dk Beyin</td>
+        <td>Beyin → Bronş → Diyafram → Beyin</td>
+        <td>GV20, LU1, CV17</td>
+      </tr>
+
+      <tr>
+        <td>Osteoartrit / Eklem Kireçlenmesi (Diz, kalça, el eklemleri) (65%)</td>
+        <td>
+          Eklem Noktaları – Ayak üst ve yan (iki ayak)<br>
+          Solar Pleksus – Taban ortası çukur<br>
+          Beyin – Başparmak ucu
+        </td>
+        <td>10 dk Eklem → 15 dk Solar Pleksus → 10 dk Beyin → 5 dk Eklem</td>
+        <td>Eklem → Solar Pleksus → Beyin → Eklem</td>
+        <td>LI4, ST36, GV20</td>
+      </tr>
+
+      <tr>
+        <td>Omurga Problemleri / Skolyoz ve Sırt Ağrısı (65%)</td>
+        <td>
+          Omurga – Ayak iç kenarı boyunca çizgi (iki ayak)<br>
+          Böbrek – Taban ortası yuvarlak nokta (iki ayak)<br>
+          Kalça – Taban arka dış kısmı
+        </td>
+        <td>5 dk Omurga → 10 dk Böbrek → 15 dk Kalça → 10 dk Omurga</td>
+        <td>Omurga → Böbrek → Kalça → Omurga</td>
+        <td>BL23, GB30, ST36</td>
+      </tr>
+
+      <tr>
+        <td>Omurga Ağrısı / Sırt ve Bel Ağrısı (65%)</td>
+        <td>
+          Omurga – Ayak iç kenarı çizgi (iki ayak)<br>
+          Böbrek – Taban ortası yuvarlak nokta (iki ayak)<br>
+          Kalça – Taban arka dış kısmı
+        </td>
+        <td>5 dk Omurga → 10 dk Böbrek → 15 dk Kalça → 10 dk Omurga</td>
+        <td>Omurga → Böbrek → Kalça → Omurga</td>
+        <td>BL23, GB30, ST36</td>
+      </tr>
+
+      <!-- P HARFİ HASTALIKLARI -->
+      <tr>
+        <td>Panik Bozukluğu / Anksiyete (Ani korku, çarpıntı, terleme) (65%)</td>
+        <td>
+          Beyin – Başparmak ucu (iki ayak)<br>
+          Solar Pleksus – Taban ortası çukur<br>
+          Adrenaller – Taban orta iç nokta
+        </td>
+        <td>10 dk Beyin → 15 dk Solar Pleksus → 10 dk Adrenaller → 5 dk Beyin</td>
+        <td>Beyin → Solar Pleksus → Adrenaller → Beyin</td>
+        <td>GV20, CV17, KD3</td>
+      </tr>
+
+      <tr>
+        <td>Prostat Problemleri (Erkeklerde prostat büyümesi veya iltihap) (60%)</td>
+        <td>
+          Alt Karın – Taban orta alt (iki ayak)<br>
+          Solar Pleksus – Taban ortası çukur<br>
+          Böbrek – Taban ortası yuvarlak nokta
+        </td>
+        <td>10 dk Alt Karın → 15 dk Solar Pleksus → 10 dk Böbrek → 5 dk Alt Karın</td>
+        <td>Alt Karın → Solar Pleksus → Böbrek → Alt Karın</td>
+        <td>CV6, CV17, BL23</td>
+      </tr>
+
+      <tr>
+        <td>Psoriasis / Sedef Hastalığı (Cilt iltihabı, kaşıntı, döküntü) (60%)</td>
+        <td>
+          Cilt – Ayak üst ve yan bölgeler (iki ayak)<br>
+          Solar Pleksus – Taban ortası çukur<br>
+          Beyin – Başparmak ucu
+        </td>
+        <td>10 dk Cilt → 15 dk Solar Pleksus → 10 dk Beyin → 5 dk Cilt</td>
+        <td>Cilt → Solar Pleksus → Beyin → Cilt</td>
+        <td>LI11, ST36, GV20</td>
+      </tr>
+
+      <tr>
+        <td>Panik Atak Sonrası Kas Gerginliği (60%)</td>
+        <td>
+          Kas – Ayak taban ve yan (iki ayak)<br>
+          Solar Pleksus – Taban ortası çukur<br>
+          Beyin – Başparmak ucu
+        </td>
+        <td>10 dk Kas → 15 dk Solar Pleksus → 10 dk Beyin → 5 dk Kas</td>
+        <td>Kas → Solar Pleksus → Beyin → Kas</td>
+        <td>ST36, CV17, GV20</td>
+      </tr>
+
+      <tr>
+        <td>Psikolojik Yorgunluk / Stres (Ruhsal bitkinlik, motivasyon düşüklüğü) (60%)</td>
+        <td>
+          Beyin – Başparmak ucu (iki ayak)<br>
+          Solar Pleksus – Taban ortası çukur<br>
+          Adrenaller – Taban orta iç nokta
+        </td>
+        <td>10 dk Beyin → 15 dk Solar Pleksus → 10 dk Adrenaller → 5 dk Beyin</td>
+        <td>Beyin → Solar Pleksus → Adrenaller → Beyin</td>
+        <td>GV20, CV17, KD3</td>
+      </tr>
+
+      <!-- R HARFİ HASTALIKLARI -->
+      <tr>
+        <td>Romatoid Artrit (Eklem iltihabı, ağrı, şişlik) (65%)</td>
+        <td>
+          Eklem Noktaları – Ayak üst ve yan (iki ayak)<br>
+          Solar Pleksus – Taban ortası çukur<br>
+          Beyin – Başparmak ucu
+        </td>
+        <td>10 dk Eklem → 15 dk Solar Pleksus → 10 dk Beyin → 5 dk Eklem</td>
+        <td>Eklem → Solar Pleksus → Beyin → Eklem</td>
+        <td>LI4, ST36, GV20</td>
+      </tr>
+
+      <tr>
+        <td>Reflü / Gastroözofageal Reflü (Mide asidi yemek borusuna kaçması) (65%)</td>
+        <td>
+          Mide – Sol ayak tarak alt iç bölge<br>
+          Diyafram – Taban ortası yatay hat<br>
+          Solar Pleksus – Taban ortası çukur
+        </td>
+        <td>10 dk Mide → 15 dk Diyafram → 10 dk Solar Pleksus → 5 dk Mide</td>
+        <td>Mide → Diyafram → Solar Pleksus → Mide</td>
+        <td>ST36, CV12, CV17</td>
+      </tr>
+
+      <tr>
+        <td>Renal Yetmezlik / Böbrek Fonksiyon Bozukluğu (65%)</td>
+        <td>
+          Böbrek – Taban ortası yuvarlak nokta (iki ayak)<br>
+          Adrenaller – Taban orta iç nokta<br>
+          Solar Pleksus – Taban ortası çukur
+        </td>
+        <td>10 dk Böbrek → 15 dk Adrenaller → 10 dk Solar Pleksus → 5 dk Böbrek</td>
+        <td>Böbrek → Adrenaller → Solar Pleksus → Böbrek</td>
+        <td>BL23, KD3, CV17</td>
+      </tr>
+
+      <tr>
+        <td>Respiratuvar Enfeksiyonlar / Bronşit, Soğuk Algınlığı (65%)</td>
+        <td>
+          Bronş – Taban üst dış (iki ayak)<br>
+          Akciğer – Taban üst geniş alan (iki ayak)<br>
+          Diyafram – Taban ortası yatay hat
+        </td>
+        <td>10 dk Bronş → 15 dk Akciğer → 10 dk Diyafram → 5 dk Bronş</td>
+        <td>Bronş → Akciğer → Diyafram → Bronş</td>
+        <td>LU1, LU9, CV17</td>
+      </tr>
+
+      <tr>
+        <td>Reflü Benzeri Mide Rahatsızlıkları / Hazımsızlık (60%)</td>
+        <td>
+          Mide – Sol ayak tarak alt iç bölge<br>
+          Diyafram – Taban ortası yatay hat<br>
+          Solar Pleksus – Taban ortası çukur
+        </td>
+        <td>10 dk Mide → 15 dk Diyafram → 10 dk Solar Pleksus → 5 dk Mide</td>
+        <td>Mide → Diyafram → Solar Pleksus → Mide</td>
+        <td>ST36, CV12, CV17</td>
+      </tr>
+
+      <!-- S HARFİ HASTALIKLARI -->
+      <tr>
+        <td>Sinüzit (Burun ve sinüs iltihabı, baş ağrısı, tıkanıklık) (65%)</td>
+        <td>
+          Burun – Başparmak üst iç kısmı (iki ayak)<br>
+          Beyin – Başparmak ucu (iki ayak)<br>
+          Solar Pleksus – Taban ortası çukur
+        </td>
+        <td>10 dk Burun → 15 dk Beyin → 10 dk Solar Pleksus → 5 dk Burun</td>
+        <td>Burun → Beyin → Solar Pleksus → Burun</td>
+        <td>LI20, GV20, CV17</td>
+      </tr>
+
+      <tr>
+        <td>Sedef Hastalığı / Psoriasis (Cilt iltihabı, kaşıntı, döküntü) (60%)</td>
+        <td>
+          Cilt – Ayak üst ve yan (iki ayak)<br>
+          Solar Pleksus – Taban ortası çukur<br>
+          Beyin – Başparmak ucu
+        </td>
+        <td>10 dk Cilt → 15 dk Solar Pleksus → 10 dk Beyin → 5 dk Cilt</td>
+        <td>Cilt → Solar Pleksus → Beyin → Cilt</td>
+        <td>LI11, ST36, GV20</td>
+      </tr>
+
+      <tr>
+        <td>Sinir Hasarı / Nöropati (Uyuşma, karıncalanma, ağrı) (65%)</td>
+        <td>
+          Sinir – Ayak iç kenarı (iki ayak)<br>
+          Solar Pleksus – Taban ortası çukur<br>
+          Beyin – Başparmak ucu
+        </td>
+        <td>10 dk Sinir → 15 dk Solar Pleksus → 10 dk Beyin → 5 dk Sinir</td>
+        <td>Sinir → Solar Pleksus → Beyin → Sinir</td>
+        <td>LI4, ST36, GV20</td>
+      </tr>
+
+      <tr>
+        <td>Stres / Anksiyete (Ruhsal yorgunluk, çarpıntı, gerginlik) (65%)</td>
+        <td>
+          Beyin – Başparmak ucu (iki ayak)<br>
+          Solar Pleksus – Taban ortası çukur<br>
+          Adrenaller – Taban orta iç nokta
+        </td>
+        <td>10 dk Beyin → 15 dk Solar Pleksus → 10 dk Adrenaller → 5 dk Beyin</td>
+        <td>Beyin → Solar Pleksus → Adrenaller → Beyin</td>
+        <td>GV20, CV17, KD3</td>
+      </tr>
+
+      <tr>
+        <td>Sindirim Sorunları / Hazımsızlık, Kabızlık (65%)</td>
+        <td>
+          Karın – Taban orta alt (iki ayak)<br>
+          Bağırsak – Taban ortası orta dış hat<br>
+          Solar Pleksus – Taban ortası çukur
+        </td>
+        <td>10 dk Karın → 15 dk Bağırsak → 10 dk Solar Pleksus → 5 dk Karın</td>
+        <td>Karın → Bağırsak → Solar Pleksus → Karın</td>
+        <td>CV6, ST25, CV17</td>
+      </tr>
+
+      <!-- Ş HARFİ HASTALIKLARI -->
+      <tr>
+        <td>Şeker Hastalığı / Diyabet (Kan şekeri dengesizliği) (65%)</td>
+        <td>
+          Pankreas – Sol ayak taban iç orta nokta<br>
+          Karın – Taban orta alt<br>
+          Solar Pleksus – Taban ortası çukur
+        </td>
+        <td>10 dk Pankreas → 15 dk Karın → 10 dk Solar Pleksus → 5 dk Pankreas</td>
+        <td>Pankreas → Karın → Solar Pleksus → Pankreas</td>
+        <td>ST36, CV12, CV17</td>
+      </tr>
+
+      <tr>
+        <td>Şiddetli Baş Ağrısı / Migren (Tek taraflı baş ağrısı, bulantı) (65%)</td>
+        <td>
+          Beyin – Başparmak ucu (iki ayak)<br>
+          Baş – Ayak parmak üstleri (iki ayak)<br>
+          Solar Pleksus – Taban ortası çukur
+        </td>
+        <td>10 dk Beyin → 15 dk Baş → 10 dk Solar Pleksus → 5 dk Beyin</td>
+        <td>Beyin → Baş → Solar Pleksus → Beyin</td>
+        <td>GV20, LI4, CV17</td>
+      </tr>
+
+      <tr>
+        <td>Şişkinlik / Gaz Problemleri (Bağırsaklarda doluluk, rahatsızlık) (65%)</td>
+        <td>
+          Bağırsak – Taban orta dış hat (iki ayak)<br>
+          Karın – Taban orta alt<br>
+          Solar Pleksus – Taban ortası çukur
+        </td>
+        <td>10 dk Bağırsak → 15 dk Karın → 10 dk Solar Pleksus → 5 dk Bağırsak</td>
+        <td>Bağırsak → Karın → Solar Pleksus → Bağırsak</td>
+        <td>ST25, CV6, CV17</td>
+      </tr>
+
+      <!-- T HARFİ HASTALIKLARI -->
+      <tr>
+        <td>Tiroid Bozuklukları / Hipotiroidi veya Hipertiroidi (Hormon dengesizliği, halsizlik, çarpıntı) (65%)</td>
+        <td>
+          Tiroid – Ayak başparmak taban üst iç bölge<br>
+          Beyin – Başparmak ucu (iki ayak)<br>
+          Solar Pleksus – Taban ortası çukur
+        </td>
+        <td>10 dk Tiroid → 15 dk Beyin → 10 dk Solar Pleksus → 5 dk Tiroid</td>
+        <td>Tiroid → Beyin → Solar Pleksus → Tiroid</td>
+        <td>LI17, GV20, CV17</td>
+      </tr>
+
+      <tr>
+        <td>Tansiyon Yüksekliği / Hipertansiyon (Kan basıncının sürekli yüksek olması) (65%)</td>
+        <td>
+          Kalp – Taban üst iç bölge (iki ayak)<br>
+          Beyin – Başparmak ucu (iki ayak)<br>
+          Böbrek – Taban orta iç nokta
+        </td>
+        <td>10 dk Kalp → 15 dk Beyin → 10 dk Böbrek → 5 dk Kalp</td>
+        <td>Kalp → Beyin → Böbrek → Kalp</td>
+        <td>HT7, GV20, BL23</td>
+      </tr>
+
+      <tr>
+        <td>Tansiyon Düşüklüğü / Hipotansiyon (Baş dönmesi, halsizlik) (60%)</td>
+        <td>
+          Kalp – Taban üst iç bölge (iki ayak)<br>
+          Böbrek – Taban orta iç nokta<br>
+          Beyin – Başparmak ucu
+        </td>
+        <td>10 dk Kalp → 15 dk Böbrek → 10 dk Beyin → 5 dk Kalp</td>
+        <td>Kalp → Böbrek → Beyin → Kalp</td>
+        <td>HT7, BL23, GV20</td>
+      </tr>
+
+      <!-- U HARFİ HASTALIKLARI -->
+      <tr>
+        <td>Uyku Bozuklukları / İnsomnia (Uykusuzluk, düzensiz uyku) (65%)</td>
+        <td>
+          Beyin – Başparmak ucu (iki ayak)<br>
+          Solar Pleksus – Taban ortası çukur<br>
+          Kalp – Taban üst iç bölge
+        </td>
+        <td>10 dk Beyin → 15 dk Solar Pleksus → 10 dk Kalp → 5 dk Beyin</td>
+        <td>Beyin → Solar Pleksus → Kalp → Beyin</td>
+        <td>GV20, CV17, HT7</td>
+      </tr>
+
+      <tr>
+        <td>Üriner Enfeksiyon (İdrar yolu iltihabı, yanma, sık idrara çıkma) (65%)</td>
+        <td>
+          Böbrek – Taban ortası yuvarlak nokta (iki ayak)<br>
+          Mesane – Taban orta arkası<br>
+          Solar Pleksus – Taban ortası çukur
+        </td>
+        <td>10 dk Böbrek → 15 dk Mesane → 10 dk Solar Pleksus → 5 dk Böbrek</td>
+        <td>Böbrek → Mesane → Solar Pleksus → Böbrek</td>
+        <td>BL23, BL28, CV17</td>
+      </tr>
+
+      <tr>
+        <td>Üst Solunum Yolu Enfeksiyonu (Burun, boğaz, sinüs rahatsızlıkları) (65%)</td>
+        <td>
+          Burun – Başparmak üst iç kısmı (iki ayak)<br>
+          Boğaz – Başparmak iç kenarı (iki ayak)<br>
+          Solar Pleksus – Taban ortası çukur
+        </td>
+        <td>10 dk Burun → 15 dk Boğaz → 10 dk Solar Pleksus → 5 dk Burun</td>
+        <td>Burun → Boğaz → Solar Pleksus → Burun</td>
+        <td>LI20, CV22, CV17</td>
+      </tr>
+
+      <!-- V HARFİ HASTALIKLARI -->
+      <tr>
+        <td>Varis / Venöz Yetmezlik (Bacaklarda damar genişlemesi, şişlik, ağrı) (65%)</td>
+        <td>
+          Bacak – Ayak üst ve iç kenar (iki ayak)<br>
+          Böbrek – Taban orta iç nokta<br>
+          Kalp – Taban üst iç bölge
+        </td>
+        <td>10 dk Bacak → 15 dk Böbrek → 10 dk Kalp → 5 dk Bacak</td>
+        <td>Bacak → Böbrek → Kalp → Bacak</td>
+        <td>BL40, BL23, HT7</td>
+      </tr>
+
+      <tr>
+        <td>Vertigo / Baş Dönmesi (60%)</td>
+        <td>
+          Beyin – Başparmak ucu (iki ayak)<br>
+          Kulak – Ayak dış üst bölge<br>
+          Solar Pleksus – Taban ortası çukur
+        </td>
+        <td>10 dk Beyin → 15 dk Kulak → 10 dk Solar Pleksus → 5 dk Beyin</td>
+        <td>Beyin → Kulak → Solar Pleksus → Beyin</td>
+        <td>GV20, GB20, CV17</td>
+      </tr>
+
+      <!-- Y HARFİ HASTALIKLARI -->
+      <tr>
+        <td>Yüksek Tansiyon / Hipertansiyon (Kan basıncının sürekli yüksek olması) (65%)</td>
+        <td>
+          Kalp – Taban üst iç bölge (iki ayak)<br>
+          Beyin – Başparmak ucu<br>
+          Böbrek – Taban orta iç nokta
+        </td>
+        <td>10 dk Kalp → 15 dk Beyin → 10 dk Böbrek → 5 dk Kalp</td>
+        <td>Kalp → Beyin → Böbrek → Kalp</td>
+        <td>HT7, GV20, BL23</td>
+      </tr>
+
+      <tr>
+        <td>Yağlı Karaciğer / Hepatik Steatoz (Karaciğer yağlanması, halsizlik) (60%)</td>
+        <td>
+          Karaciğer – Taban üst dış bölge (sağ ayak)<br>
+          Böbrek – Taban ortası yuvarlak nokta (iki ayak)<br>
+          Solar Pleksus – Taban ortası çukur
+        </td>
+        <td>10 dk Karaciğer → 15 dk Böbrek → 10 dk Solar Pleksus → 5 dk Karaciğer</td>
+        <td>Karaciğer → Böbrek → Solar Pleksus → Karaciğer</td>
+        <td>LR3, BL23, CV17</td>
+      </tr>
+
+      <tr>
+        <td>Yorgunluk / Bitkinlik (Enerji düşüklüğü, halsizlik) (65%)</td>
+        <td>
+          Beyin – Başparmak ucu (iki ayak)<br>
+          Solar Pleksus – Taban ortası çukur<br>
+          Böbrek – Taban ortası yuvarlak nokta
+        </td>
+        <td>10 dk Beyin → 15 dk Solar Pleksus → 10 dk Böbrek → 5 dk Beyin</td>
+        <td>Beyin → Solar Pleksus → Böbrek → Beyin</td>
+        <td>GV20, CV17, BL23</td>
+      </tr>
+
+      <tr>
+        <td>Yutma Güçlüğü / Özofagus Sorunları (Yemek borusu ile ilgili problemler) (60%)</td>
+        <td>
+          Boğaz – Başparmak iç kenarı<br>
+          Beyin – Başparmak ucu<br>
+          Solar Pleksus – Taban ortası çukur
+        </td>
+        <td>10 dk Boğaz → 15 dk Beyin → 10 dk Solar Pleksus → 5 dk Boğaz</td>
+        <td>Boğaz → Beyin → Solar Pleksus → Boğaz</td>
+        <td>CV22, GV20, CV17</td>
+      </tr>
+
+      <!-- Z HARFİ HASTALIKLARI -->
+      <tr>
+        <td>Zatürre / Pnömoni (Akciğer iltihabı, öksürük, ateş) (65%)</td>
+        <td>
+          Akciğer – Taban üst dış bölge (iki ayak)<br>
+          Bronş – Taban üst dış bölge (iki ayak)<br>
+          Diyafram – Taban ortası yatay çizgi
+        </td>
+        <td>10 dk Akciğer → 15 dk Bronş → 10 dk Diyafram → 5 dk Akciğer</td>
+        <td>Akciğer → Bronş → Diyafram → Akciğer</td>
+        <td>LU1, LU5, CV17</td>
+      </tr>
+
+      <tr>
+        <td>Zihinsel Yorgunluk / Konsantrasyon Bozukluğu (Odaklanamama, unutkanlık) (60%)</td>
+        <td>
+          Beyin – Başparmak ucu (iki ayak)<br>
+          Solar Pleksus – Taban ortası çukur<br>
+          Göz Noktası – Ayak başparmak üst dış bölge
+        </td>
+        <td>10 dk Beyin → 15 dk Solar Pleksus → 10 dk Göz Noktası → 5 dk Beyin</td>
+        <td>Beyin → Solar Pleksus → Göz Noktası → Beyin</td>
+        <td>GV20, CV17, GB20</td>
+      </tr>
+
+      <tr>
+        <td>Zayıflık / Bağışıklık Düşüklüğü (Halsizlik, enfeksiyonlara yatkınlık) (60%)</td>
+        <td>
+          Böbrek – Taban ortası yuvarlak nokta (iki ayak)<br>
+          Solar Pleksus – Taban ortası çukur<br>
+          Beyin – Başparmak ucu
+        </td>
+        <td>10 dk Böbrek → 15 dk Solar Pleksus → 10 dk Beyin → 5 dk Böbrek</td>
+        <td>Böbrek → Solar Pleksus → Beyin → Böbrek</td>
+        <td>BL23, CV17, GV20</td>
+      </tr>
+    </tbody>
+  </table>
+  <script>
+    const searchInput = document.getElementById("search");
+    searchInput.addEventListener("keyup", function () {
+      const filter = searchInput.value.toLowerCase();
+      const rows = document.querySelectorAll("#diseaseTable tbody tr");
+      rows.forEach(row => {
+        const firstCell = row.cells[0].textContent.toLowerCase();
+        if (firstCell.indexOf(filter) > -1) {
+          row.style.display = "";
+        } else {
+          row.style.display = "none";
+        }
+      });
+    });
+  </script>
+</body>
+
+</html>
